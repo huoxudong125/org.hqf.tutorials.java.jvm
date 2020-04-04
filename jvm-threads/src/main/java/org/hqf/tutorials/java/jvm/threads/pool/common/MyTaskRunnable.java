@@ -17,9 +17,10 @@ public class MyTaskRunnable implements Runnable {
 
     public void run() {
         try {
-            Long duration = (long) (Math.random() * 10);
+            Long duration = (long) (Math.random() * 1000);
             System.out.println(currentThread().getName()+" Executing : " + name+ " ,duration :"+duration);
-            TimeUnit.SECONDS.sleep(duration);
+//            TimeUnit.SECONDS.sleep(duration);
+            Thread.sleep(duration);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
