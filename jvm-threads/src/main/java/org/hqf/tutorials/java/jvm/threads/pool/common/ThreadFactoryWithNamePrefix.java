@@ -1,4 +1,4 @@
-package org.hqf.tutorials.java.jvm.threads.pool;
+package org.hqf.tutorials.java.jvm.threads.pool.common;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
