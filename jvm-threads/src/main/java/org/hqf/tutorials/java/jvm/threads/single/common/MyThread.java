@@ -1,4 +1,4 @@
-package org.hqf.tutorials.java.jvm.threads.sing.common;
+package org.hqf.tutorials.java.jvm.threads.single.common;
 
 import java.util.concurrent.ThreadLocalRandom;
 

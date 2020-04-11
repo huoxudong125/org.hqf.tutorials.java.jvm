@@ -1,4 +1,6 @@
-package org.hqf.tutorials.java.jvm.threads.sing.common;
+package org.hqf.tutorials.java.jvm.threads.single;
+
+import org.hqf.tutorials.java.jvm.threads.single.common.MyThread;
 
 public class MyThreadWithName {
     public static void main(String[] args) {
